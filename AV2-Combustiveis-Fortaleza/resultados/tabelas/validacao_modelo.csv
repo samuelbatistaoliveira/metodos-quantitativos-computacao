@@ -1,0 +1,11 @@
+Indicador,Valor
+Número de observações,102
+R² do modelo,0.3937098180785149
+Estatística F,64.93752163868959
+Valor-p da regressão,1.7020108026423212e-12
+Estatística de Shapiro-Wilk,0.8696284114352797
+Valor-p de Shapiro-Wilk,5.369373977975745e-08
+Interpretação da normalidade,Evidência de desvio da normalidade
+Estatística de Breusch-Pagan,3.376794749045831
+Valor-p de Breusch-Pagan,0.06612052666617876
+Interpretação da variância dos resíduos,Sem evidência suficiente de heterocedasticidade
