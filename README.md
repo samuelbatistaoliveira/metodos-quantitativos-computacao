@@ -1,11 +1,6 @@
 
 # Métodos Quantitativos em Computação
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Análise de Dados](https://img.shields.io/badge/Análise_de_Dados-555555?style=flat-square)
-![Estatística](https://img.shields.io/badge/Estatística-008CBA?style=flat-square)
-![Regressão Linear](https://img.shields.io/badge/Regressão_Linear-F39C12?style=flat-square)
-
 Repositório acadêmico destinado ao desenvolvimento de projetos de **análise de dados, estatística descritiva e modelagem estatística com Python**, realizados na disciplina de **Métodos Quantitativos em Computação**, do curso de Ciência da Computação da Universidade de Fortaleza (UNIFOR).
 
 ## Sobre o Repositório
