@@ -1,4 +1,10 @@
+
 # Métodos Quantitativos em Computação
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Análise de Dados](https://img.shields.io/badge/Análise_de_Dados-555555?style=flat-square)
+![Estatística](https://img.shields.io/badge/Estatística-008CBA?style=flat-square)
+![Regressão Linear](https://img.shields.io/badge/Regressão_Linear-F39C12?style=flat-square)
 
 Repositório acadêmico destinado ao desenvolvimento de projetos de **análise de dados, estatística descritiva e modelagem estatística com Python**, realizados na disciplina de **Métodos Quantitativos em Computação**, do curso de Ciência da Computação da Universidade de Fortaleza (UNIFOR).
 
@@ -14,9 +20,10 @@ As atividades envolvem processamento de bases de dados, construção de tabelas 
 
 **Status:** Desenvolvido
 
-Análise estatística de uma amostra de 5.798 registros do ENEM 2020, explorando características socioeconômicas dos participantes e a distribuição das notas.
+Análise estatística de uma amostra de **5.798 registros do ENEM 2020**, explorando características socioeconômicas dos participantes e a distribuição das notas.
 
 **Principais análises:**
+
 - Distribuições de frequência absoluta e relativa.
 - Medidas de posição e dispersão.
 - Tabelas cruzadas de variáveis socioeconômicas.
@@ -30,20 +37,34 @@ Análise estatística de uma amostra de 5.798 registros do ENEM 2020, explorando
 
 ### AV2 — Análise de Preços de Combustíveis em Fortaleza
 
-**Status:** Planejado
+**Status:** Desenvolvido
 
-Projeto voltado à análise estatística dos preços de gasolina e etanol em Fortaleza, utilizando dados públicos da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP), referentes a 2025.
+Análise estatística da relação entre os preços médios da gasolina e do etanol em Fortaleza, utilizando dados públicos da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP), referentes a 2025.
 
-**Análises previstas:**
-- Análise exploratória dos dados.
-- Correlação entre variáveis quantitativas.
+A base original contém **4.751 registros**, posteriormente organizados em **102 observações pareadas** para aplicação dos métodos estatísticos.
+
+**Principais análises:**
+
+- Tratamento e organização dos dados.
+- Estatísticas descritivas.
+- Diagrama de dispersão.
+- Correlação de Pearson.
 - Regressão linear simples.
 - Coeficiente de determinação (R²).
-- Análise de resíduos.
-- Análise de variância (ANOVA).
-- Visualizações estatísticas.
+- Análise de resíduos e normalidade.
+- ANOVA e validação do modelo.
+- Estimativas de preços e limitações.
 
-O projeto será adicionado ao repositório conforme seu desenvolvimento.
+**Principais resultados:**
+
+- **Correlação de Pearson:** 0,6275.
+- **Equação de regressão:** Gasolina = 4,6925 + 0,3233 × Etanol.
+- **Coeficiente de determinação (R²):** 39,37%.
+- **Significância estatística:** valor-p inferior a 0,05.
+
+Os resultados indicam uma associação linear positiva moderada entre os preços dos combustíveis, embora o modelo apresente limitações identificadas na análise dos resíduos.
+
+**[Acessar projeto AV2](./AV2-Combustiveis-Fortaleza)**
 
 ## Tecnologias e Ferramentas
 
@@ -52,29 +73,30 @@ O projeto será adicionado ao repositório conforme seu desenvolvimento.
 | Python | Processamento e análise estatística |
 | Pandas | Manipulação e organização de dados |
 | NumPy | Operações numéricas |
+| SciPy | Correlação, regressão e testes estatísticos |
 | Matplotlib | Visualização de dados |
 | OpenPyXL | Manipulação de planilhas Excel |
 | Git e GitHub | Versionamento e documentação |
 
-Outras bibliotecas poderão ser incorporadas conforme as necessidades dos projetos.
-
 ## Estrutura do Repositório
 
-```text
-metodos-quantitativos-computacao/
-├── AV1-ENEM-2020/
-│   ├── codigo/
-│   ├── dados/
-│   ├── relatorio/
-│   ├── resultados/
-│   ├── README.md
-│   └── requirements.txt
-└── README.md
-```
+    metodos-quantitativos-computacao/
+    ├── AV1-ENEM-2020/
+    │   ├── codigo/
+    │   ├── dados/
+    │   ├── relatorio/
+    │   ├── resultados/
+    │   ├── README.md
+    │   └── requirements.txt
+    ├── AV2-Combustiveis-Fortaleza/
+    │   ├── codigo/
+    │   ├── dados/
+    │   ├── resultados/
+    │   └── README.md
+    ├── .gitignore
+    └── README.md
 
-A pasta da AV2 será adicionada quando o projeto for iniciado.
-
-Cada projeto terá sua própria documentação, scripts, dados e resultados, permitindo sua execução e consulta de maneira independente.
+Cada projeto possui sua própria documentação, scripts, dados e resultados, permitindo sua execução e consulta de maneira independente.
 
 ## Equipe
 
