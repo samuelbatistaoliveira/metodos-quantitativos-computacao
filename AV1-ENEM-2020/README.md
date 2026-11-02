@@ -1,3 +1,4 @@
+
 # AV1 — Análise Descritiva dos Dados do ENEM 2020
 
 Projeto acadêmico desenvolvido na disciplina de **Métodos Quantitativos em Computação**, do curso de **Ciência da Computação da Universidade de Fortaleza (UNIFOR)**, no semestre 2026.2.
@@ -26,7 +27,19 @@ AV1-ENEM-2020/
 │   └── relatorio_enem_2020.pdf
 ├── resultados/
 │   ├── graficos/
+│   │   ├── gráfico_1_renda_familiar_barras.png
+│   │   ├── gráfico_2_internet_barras.png
+│   │   ├── gráfico_3_internet_pizza.png
+│   │   └── gráfico_4_telefone_celular_pizza...
 │   └── tabelas/
+│       ├── tabela_1_estado_civil.csv
+│       ├── tabela_2_dependencia_administra...
+│       ├── tabela_3_renda_familiar.csv
+│       ├── tabela_4_internet.csv
+│       ├── tabela_5_lingua_estrangeira.csv
+│       ├── tabela_6_escola_ensino_medio.csv
+│       ├── tabela_7_renda_x_internet.csv
+│       └── tabela_7b_renda_x_internet_pct.csv
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -48,6 +61,12 @@ No Windows (PowerShell):
 
 ```powershell
 .venv\Scripts\Activate.ps1
+```
+
+No Linux:
+
+```bash
+source .venv/bin/activate
 ```
 
 ### 3. Instalar as dependências
@@ -88,7 +107,7 @@ Os resultados são interpretados de forma descritiva, considerando a amostra uti
 
 As tabelas e os gráficos gerados estão organizados na pasta `resultados/`.
 
-O relatório acadêmico completo, contendo a apresentação e interpretação dos resultados, está disponível em `relatorio/relatorio_enem_2020.pdf`.
+O relatório acadêmico completo, contendo a apresentação e interpretação dos resultados, está disponível em [Relatório — ENEM 2020](relatorio/relatorio_enem_2020.pdf).
 
 ## Fonte dos Dados
 
