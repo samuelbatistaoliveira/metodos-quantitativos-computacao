@@ -114,15 +114,24 @@ O projeto busca avaliar os procedimentos amostrais, a representatividade da amos
     │   ├── dados/
     │   ├── relatorio/
     │   ├── resultados/
+    │   ├── .gitignore
     │   ├── README.md
     │   └── requirements.txt
     ├── AV2-Combustiveis-Fortaleza/
     │   ├── codigo/
     │   ├── dados/
+    │   ├── relatorio/
     │   ├── resultados/
     │   └── README.md
+    ├── AV3-Estimacao-Amostragem/
+    │   ├── dados/
+    │   ├── resultados/
+    │   └── scripts/
     ├── .gitignore
     └── README.md
+
+Cada projeto possui seus próprios scripts, dados e resultados, permitindo sua execução e consulta de maneira independente.
+Cada projeto possui seus próprios scripts, dados e resultados, permitindo sua execução e consulta de maneira independente.
 
 Cada projeto possui sua própria documentação, scripts, dados e resultados, permitindo sua execução e consulta de maneira independente.
 
