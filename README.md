@@ -1,7 +1,7 @@
 
 # Métodos Quantitativos em Computação
 
-Repositório acadêmico destinado ao desenvolvimento de projetos de **análise de dados, estatística descritiva e modelagem estatística com Python**, realizados na disciplina de **Métodos Quantitativos em Computação**, do curso de Ciência da Computação da Universidade de Fortaleza (UNIFOR).
+Repositório acadêmico destinado ao desenvolvimento de projetos de **análise de dados, estatística descritiva, modelagem estatística, estimação e amostragem com Python**, realizados na disciplina de **Métodos Quantitativos em Computação**, do curso de Ciência da Computação da Universidade de Fortaleza (UNIFOR).
 
 ## Sobre o Repositório
 
@@ -61,6 +61,38 @@ Os resultados indicam uma associação linear positiva moderada entre os preços
 
 **[Acessar projeto AV2](./AV2-Combustiveis-Fortaleza)**
 
+### AV3 — Estimação e Amostragem
+
+**Status:** Desenvolvido
+
+Análise metodológica do Levantamento de Preços de Combustíveis da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP), considerando os postos revendedores de Fortaleza durante outubro de 2026.
+
+O projeto busca avaliar os procedimentos amostrais, a representatividade da amostra, a confiabilidade dos resultados e as limitações metodológicas da pesquisa.
+
+**Principais análises:**
+
+- Caracterização da população-alvo.
+- Identificação e avaliação da técnica de amostragem.
+- Análise do tamanho da amostra.
+- Cálculo da fração amostral.
+- Análise da recorrência dos postos pesquisados.
+- Discussão sobre nível de confiança e margem de erro.
+- Identificação de limitações e possíveis vieses amostrais.
+- Sugestões de melhorias metodológicas.
+
+**Principais resultados:**
+
+- **População de referência:** 314 postos cadastrados.
+- **Amostra semanal:** 47 postos.
+- **Postos distintos no período:** 52.
+- **Registros de preços:** 727.
+- **Fração amostral semanal de referência:** 14,97%.
+- **Postos presentes nas quatro semanas:** 34 (65,38%).
+
+**Resultados:** scripts Python, tabelas CSV, gráficos PNG e relatório acadêmico.
+
+**[Acessar projeto AV3](./AV3-Estimacao-Amostragem)**
+
 ## Tecnologias e Ferramentas
 
 | Tecnologia | Aplicação |
@@ -72,6 +104,7 @@ Os resultados indicam uma associação linear positiva moderada entre os preços
 | Matplotlib | Visualização de dados |
 | OpenPyXL | Manipulação de planilhas Excel |
 | Git e GitHub | Versionamento e documentação |
+
 
 ## Estrutura do Repositório
 
@@ -92,6 +125,8 @@ Os resultados indicam uma associação linear positiva moderada entre os preços
     └── README.md
 
 Cada projeto possui sua própria documentação, scripts, dados e resultados, permitindo sua execução e consulta de maneira independente.
+
+
 
 ## Equipe
 
